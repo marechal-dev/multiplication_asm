@@ -33,7 +33,7 @@ TIMES_ZERO:
     jmp END            ;Armazene zero em multi e encerre o programa (0 x qualquer coisa = 0)
 
 END:	 
-    hlt		             ;Label para encerrar o programa facilmente
+    hlt		           ;Label para encerrar o programa facilmente
 .endcode
 
 .data
