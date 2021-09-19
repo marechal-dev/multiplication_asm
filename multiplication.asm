@@ -28,12 +28,12 @@ CASE2:                 ;n2 > n1
     jz  END            ;Caso n1 (acc) = 0 entao jump -> END
     jmp CASE2          ;Se nao, repita o processo
 
-TIMES_ZERO:	
+TIMES_ZERO:            ;Label para tratamento de multiplicacoes por zero
     sta multi          ;Se um dos operandos for zero,
     jmp END            ;Armazene zero em multi e encerre o programa (0 x qualquer coisa = 0)
 
-END:	 
-    hlt		           ;Label para encerrar o programa facilmente
+END:	               ;Label para encerrar o programa facilmente
+    hlt		           ;Instrucao para encerrar o programa
 .endcode
 
 .data
