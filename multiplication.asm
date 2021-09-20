@@ -1,3 +1,5 @@
+;Implementation using Cleopatra Assembly
+
 .code
     lda n1             ;Carrega n1 no acc
     jz  TIMES_ZERO     ;Caso zero, jmp -> TIMES_ZERO
