@@ -9,13 +9,16 @@ int main() {
     do {
       multi += n1;
       n2 -= 1;
-    } while (n2 < 0);
+    } while (n2 > 0);
   } else {
     do {
       multi += n2;
       n1 -= 1;
-    } while (n1 < 0);
+    } while (n1 > 0);
   }
+
+  printf("%d", multi);
 
   return 0;
 }
+

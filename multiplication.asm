@@ -32,7 +32,7 @@ CASE2:                 ;n2 > n1
 
 TIMES_ZERO:            ;Label para tratamento de multiplicacoes por zero
     sta multi          ;Se um dos operandos for zero,
-    jmp END            ;Armazene zero em multi e encerre o programa (0 x qualquer coisa = 0)
+    hlt                ;Armazene zero em multi e encerre o programa (0 x qualquer coisa = 0)
 
 END:	               ;Label para encerrar o programa facilmente
     hlt		           ;Instrucao para encerrar o programa
