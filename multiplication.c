@@ -17,8 +17,6 @@ int main() {
     } while (n1 > 0);
   }
 
-  printf("%d", multi);
-
   return 0;
 }
 
